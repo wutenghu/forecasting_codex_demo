@@ -13,3 +13,4 @@
 # Allow code and markdown docs
 !**/*.py
 !**/*.md
+!requirements.txt
