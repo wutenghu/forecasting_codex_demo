@@ -1,0 +1,15 @@
+# Keep repository minimal for remote sync:
+# Only track code (.py) and documentation (.md).
+
+# Ignore everything by default
+*
+
+# Keep directory traversal so unignore rules can apply
+!*/
+
+# Always keep this file
+!.gitignore
+
+# Allow code and markdown docs
+!**/*.py
+!**/*.md
